@@ -1,24 +1,24 @@
 As atividades habituais dos profissionais dos diversos ramos da engenharia geralmente os colocam diante de problemas técnicos que nem sempre possuem soluções simples. Para que seja possível resolver uma maior gama destes problemas de maneira satisfatória, a área da engenharia recorre a diversos métodos.
 
-    No caso da engenharia civil, essa maneira satisfatória está associada à uma análise da estrutura de forma que esta não estará sujeita a falhas sob  as condições normais de seu uso.
+   No caso da engenharia civil, essa maneira satisfatória está associada à uma análise da estrutura de forma que esta não estará sujeita a falhas sob  as condições normais de seu uso.
     
-    Para que seja possível desenvolver essa análise representando o comportamento mais aproximado ao real dessa estrutura em serviço, premissas baseadas em conceitos da teoria da resistência dos materiais baseados na rigidez de seus elementos, conceitos de estática e mecânica geral são utilizadas como subsídios para os cálculos da modelagem.
+   Para que seja possível desenvolver essa análise representando o comportamento mais aproximado ao real dessa estrutura em serviço, premissas baseadas em conceitos da teoria da resistência dos materiais baseados na rigidez de seus elementos, conceitos de estática e mecânica geral são utilizadas como subsídios para os cálculos da modelagem.
     
-    É importante ressaltar que aliado aos conhecimentos dos métodos matemáticos empregados para essa análise, o engenheiro deve conhecer a natureza física a que o elemento analisado está submetido. Somente a partir desse conhecimento será possível produzir hipóteses sobre seu comportamento individual e como este afeta o comportamento geral da estrutura, conceito base do MEF.
+   É importante ressaltar que aliado aos conhecimentos dos métodos matemáticos empregados para essa análise, o engenheiro deve conhecer a natureza física a que o elemento analisado está submetido. Somente a partir desse conhecimento será possível produzir hipóteses sobre seu comportamento individual e como este afeta o comportamento geral da estrutura, conceito base do MEF.
     
-    O modelo de cálculo nada mais é que a representação do objeto de análise de acordo com suas características geométricas e cargas atuantes, idealizando essa estrutura original de forma a roterizar seu esquema de cálculo.
+   O modelo de cálculo nada mais é que a representação do objeto de análise de acordo com suas características geométricas e cargas atuantes, idealizando essa estrutura original de forma a roterizar seu esquema de cálculo.
     
-    Para a modelagem desses sistemas, existem duas vertentes:
- 
-    - Modelagem contínua
+   Para a modelagem desses sistemas, existem duas vertentes:
+     
+   - Modelagem contínua;
     
-    - Modelagem discreta
+   - Modelagem discreta.
     
-    Em termos práticos, modelar um problema real de forma contínua ou discreta são dois modos distintos de se chegar ao mesmo objetivo.
+   Em termos práticos, modelar um problema real de forma contínua ou discreta são dois modos distintos de se chegar ao mesmo objetivo.
     
-    Matematicamente, os modelos contínuos são representados por um número infinito de graus de liberdade*, porém suas soluções são  restritas a casos ou geometrias conhecidas, o que não se aplica a grande maioria dos problemas práticos.
+   Matematicamente, os modelos contínuos são representados por um número infinito de graus de liberdade*, porém suas soluções são  restritas a casos ou geometrias conhecidas, o que não se aplica a grande maioria dos problemas práticos.
     
-    Já os *modelos discretos* são sistemas representados *por um número finito de graus de liberdade, onde problemas contínuos são discretizados através da divisão da estrutura em partes distintas de comprimento finito mas conectadas entre si por pontos doniminados *nós. Esse procedimento permite que um estrtura incialmente tida como complexa seja dividida em um conjunto de estruturas simples.
+   Já os *modelos discretos* são sistemas representados *por um número finito de graus de liberdade, onde problemas contínuos são discretizados através da divisão da estrutura em partes distintas de comprimento finito mas conectadas entre si por pontos doniminados *nós. Esse procedimento permite que um estrtura incialmente tida como complexa seja dividida em um conjunto de estruturas simples.
     
     O que é grau de liberdade?
     
