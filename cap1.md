@@ -26,18 +26,6 @@ As atividades habituais dos profissionais dos diversos ramos da engenharia geral
     
    Vale ressaltar que essa divisão deve ser feita de modo que o número de pontos escolhidos consiga representar de maneira satisfatória o comportamento do conjunto como um todo.
     
-   *Escolha do número de pontos?*
-    
-   *Tipos de elementos?*
-
-   *O que é grau de liberdade?*
-   
-   Grau de liberdade, em matemática, é o número de variáveis independentes que dispomos para descrever de forma completa um sistema [1], por exemplo em mecânica computacional graus de liberdade equivale as capacidades de movimento que uma estrutura poderá ter. Um pórtico plano possui 3 graus de liberdade por nó, ou seja, dois movimentos de translação e um movimento de rotação.
-    
-   Vale ressaltar que essa divisão deve ser feita de modo que o número de pontos escolhidos consiga representar de maneira satisfatória o comportamento do conjunto como um todo.
-  
-   *Tipos de elementos?*
-    
    A abordagem discreta amplamente utilizada em técnicas refinadas de engenharia não é nenhuma novidade da modernidade e sim um recurso utilizado desde a antiguidade para facilitar a solução de problemas complexos.
     
    Os egípcios já utilizavam aproximações numéricas para determinar a área de circunferências conforme descrito nos Papiros de Ahmes (também conhecido como Papiro de Rhind) [2]. Portanto é possível afirmar que técnicas de modelagem discreta possuem um vasto campo de aplicações. 
