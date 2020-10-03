@@ -1,6 +1,6 @@
 1 Introdução
 
-*1.1 O QUE É A TÉCNICA DE ELEMENTOS FINITOS E SEU HISTÓRICO*
+1.1 *O QUE É A TÉCNICA DE ELEMENTOS FINITOS E SEU HISTÓRICO*
 
 O princípio do Método dos Elementos Finitos consiste basicamente em uma sequência prévia de definições que irão balizar a resolução do problema imposto. Tal método envolve a resolução de equações diferenciais parciais, como as equações de Poisson e Laplace, sendo bastante utilizada junto a computadores e softwares que facilitam estes cálculos.
 A história do desenvolvimento do Método dos Elementos Finitos (MEF) se inicia entre as décadas de 50 e 60 do século XX, juntamente com o surgimento dos primeiros computadores, visto que a enorme quantidade de sistemas de equações lineares necessárias de serem resolvidas no processo demandam ferramentas auxiliares. Logo, a partir do final da década de 80, com a propagação dos computadores, tal método começa a ser mais utilizado.
