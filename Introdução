@@ -1,0 +1,134 @@
+1 Introdução
+
+*1.1 O QUE É A TÉCNICA DE ELEMENTOS FINITOS E SEU HISTÓRICO*
+
+O princípio do Método dos Elementos Finitos consiste basicamente em uma sequência prévia de definições que irão balizar a resolução do problema imposto. Tal método envolve a resolução de equações diferenciais parciais, como as equações de Poisson e Laplace, sendo bastante utilizada junto a computadores e softwares que facilitam estes cálculos.
+A história do desenvolvimento do Método dos Elementos Finitos (MEF) se inicia entre as décadas de 50 e 60 do século XX, juntamente com o surgimento dos primeiros computadores, visto que a enorme quantidade de sistemas de equações lineares necessárias de serem resolvidas no processo demandam ferramentas auxiliares. Logo, a partir do final da década de 80, com a propagação dos computadores, tal método começa a ser mais utilizado.
+Apesar de que algumas técnicas dos MEF já fossem conhecidas, é citado por vários autores que o termo “elementos finitos” surgiu a partir de Ray Clough, um engenheiro americano, em 1960.
+Todo o desenvolvimento desta área proporcionou um método numérico capaz de solucionar diversas equações da engenharia relacionadas aos fenômenos físicos, simulando estes de maneira genérica. Algumas destas aplicações incluem análise de cargas de flambagem, condução de calor e análises estáticas linear e não-linear.
+O Método dos Elementos Finitos pode ser dividido em três itens para que seja solucionado. O primeiro é o Pré-processamento, onde são especificadas a geometria do modelo e as propriedades do material. Em seguida, esta geometria é dividida em vários “pedaços”, denominados elementos, de maneira a tentar simplificar o problema proposto. Estes elementos são conectados entre si a partir de pontos, os chamados nós ou pontos nodais. Quando juntados estes elementos, forma-se a malha.
+A quantidade de nós presentes influencia diretamente na precisão do método proposto, visto que, quanto menores forem os elementos, maiores vão ser a quantidade de pontos nodais, fazendo a análise da solução se tornar mais exata.
+O segundo passo do MEF seria a análise, solucionando o problema requisitado, geralmente com o auxílio de softwares específicos. Por último, tem-se o pós-processamento, onde é dada a solução mais próxima encontrada pelo método, visto que a divisão da geometria em uma malha carrega pequenas imprecisões no modelo.
+
+*1.2 APLICAÇÕES DOS ELEMENTOS FINITOS NA ENGENHARIA*
+
+A aplicação do Método dos Elementos Finitos se distribuiu por diversos ramos da engenharia e se tornou uma ferramenta importante e necessária na resolução de diferentes tipos de problemas relacionados ao comportamento dos materiais em condições determinadas. O atual nível de desenvolvimento do método permite com que sua utilização tenha se expandido de forma considerável entre inúmeros campos de atuação além da indústria da construção civil, como engenharia mecânica, elétrica, metalúrgica, bioengenharia etc.
+As aplicações pioneiras do MEF foram destinadas às análises de tensões e deformações em problemas de Engenharia Estrutural, com o intuito principal de se determinar tais valores e conhecer o comportamento de um corpo sólido quando submetido a esforços oriundos de ações externas de forças aplicadas ou de deslocamentos impostos.
+Os estudos baseados na premissa desse tipo de análise de esforços são pontos importantes em outras áreas da engenharia, onde se destaca principalmente a Engenharia Mecânica, com a análise de estruturas e peças de máquinas, automóveis, caminhões, navios, aviões, espaçonaves etc (SOUZA, 2003).
+Na engenharia civil em específico, o MEF pode ser aplicado em uma gama variada de problemas, como a resistência dos materiais, mecânica dos solos, mecânica estrutural, mecânica das rochas, condução de calor, hidrodinâmica, acústica etc. 
+No ramo da mecânica estrutural, o objetivo principal se baseia na determinação do estado de tensão e deformação de um sólido de geometria arbitrária e sujeito a ações externas. O método permite que o problema seja baseado em diferentes tipos de análises: as relacionadas aos efeitos de movimentação dos elementos da estrutura, através de análises dinâmicas ou estáticas; as relacionadas ao comportamento e características do material constituinte e como este responde às solicitações oriundas das ações exteriores, através de análises lineares ou não lineares, e ao tipo de estrutura, tomando de base sua geometria e suas condições de contorno, por exemplo.
+Em outras palavras, a partir do momento em que as formulações das equações de flexibilidade e rigidez da peça a ser analisada são corretamente descritas e interpretadas e os critérios de análise definidos, é possível estabelecer e a analisar o seu comportamento no que diz respeito aos esforços aos quais a estrutura está submetida e os seus deslocamentos resultantes.
+O Método dos Elementos Finitos pode ser utilizado desde a construção de barragens, através da análise de tensões e deformações do maciço, a fim de se monitorar, por exemplo, a magnitude das deformações que ocorrem na estrutura, 
+Alguns exemplos práticos de aplicação comumente utilizados são, por exemplo, o monitoramento, tanto em fase construtiva quanto em fase operacional de barragens de terra ou concreto armado através da análise de tensões, deformações e deslocamentos do maciço; a análise das regiões de ligação de elementos estruturais, como as ligações viga-pilar; análises térmicas para o monitoramento do perfil de temperatura de determinado componente ou equipamento a fim de assegurar níveis aceitáveis de operação; interação fluido-estrutura, como a incidência do vento sobre edificações ou aeronaves etc.
+Mahler (1974) apresenta em seu estudo a elaboração de um programa, utilizando o Método dos Elementos Finitos, para simular a construção de barragens em geral e o enchimento do reservatório, permitindo com que fosse possível uma análise estática completa das tensões, deformações e deslocamentos em diferentes pontos da estrutura. Apesar do MEF ainda não ser tão difundido no período de divulgação do trabalho, o autor reconhece os resultados como satisfatórios, definindo pontos ideais para a colocação da instrumentação de monitoramento, a fim de validar os resultados calculados.
+Assumpção (2015) utiliza o Método dos Elementos Finitos para avaliar a integridade estrutural de um tanque de concentrado de minério de ferro em uma mineradora com operações de lavra situadas em cidades do interior de Minas Gerais e com processamento no estado do Rio de Janeiro. O estudo permitiu identificar a existência de regiões com início de ocorrência de deformação plástica e frequência natural, da estrutura em nível mínimo, abaixo do especificado por norma.
+Donin e Machado (2018) mostram a aplicação do MEF na análise de modelos para a distribuição de ações em pontes de múltiplas vigas em comparação a outros métodos com a finalidade de contornar a dificuldade ao redor do problema e propor uma solução que mais represente a realidade do fenômeno físico envolvido. Através dessa comparação, os autores identificaram o MEF como o método mais preciso e mais a favor da segurança para o dimensionamento. Além disso, caracterizam o método como capaz de resolver problemas complexos e de modelar de forma fiel a estrutura, levando em conta sua geometria e propriedade dos materiais, propondo assim resultados mais próximos aos reais.
+
+*1.3 SOFTWARES EXISTENTES DE ELEMENTOS FINITOS*
+
+Existem na atualidade uma enorme quantidade de softwares desenvolvidos para trabalhar com o Método dos Elementos Finitos. Dentre eles pode-se citar algumas opções gratuitas como:
+a)	Abaqus;
+b)	OpenFEM.
+
+Algumas opções pagas também são comumente utilizadas para tais problemas, como:
+a)	Robot Structural Analysis Professional (Autodesk);
+b)	Ansys;
+c)	Solidworks Simulation;
+d)	Femap;
+e)	SAP2000;
+
+*1.4 ELEMENTOS FINITOS EXISTENTES*
+
+Ao se trabalhar com o Método dos Elementos Finitos, é necessário definir, além da quantidade de elementos iniciais ao qual o sistema será divido, é preciso escolher de forma adequada qual tipo de elemento será utilizado, definindo assim o tipo de aproximação resultante. Os elementos comumente utilizados são:
+a)	Elementos de barra (unidimensionais)
+b)	Elementos planos (bidimensionais)
+c)	Elementos tridimensionais
+
+1.4.1 Elementos de barra (unidimensionais)
+Os elementos de barra ou elementos retos são componentes conectados a nós e submetidos somente a forças axiais. São comumente utilizados, por exemplo, para modelar estruturas reticuladas, como das treliças. Azevedo (2003) destaca que, por considerar apenas uma dimensão para os cálculos, o método não é de grande interesse prático, porém serve como introdução às técnicas mais avançadas em casos genéricos.
+
+1.4.2 Elementos planos (bidimensionais)
+Há situações em que o desenvolvimento do problema imposto resulta na necessidade da adoção de elementos bidimensionais. Nestes tipos de sistema, é comum se trabalhar com elementos triangulares lineares e retangulares. Nesta etapa, busca-se adotar o elemento com a maior capacidade de aproximação da malha escolhida.
+
+1.4.3 Elementos tridimensionais
+Os elementos finitos sólidos (ou tridimensionais) aparentemente conseguem fazer a modelagem de qualquer geometria proposta. Porém, isto requer maiores esforços no pré-processamento e análise dos dados, gerando uma certa dificuldade em sua aplicação.
+
+*1.5 DEDUÇÃO DOS PRINCÍPIOS NEWTONIANO E LAGRAGIANO*
+
+1.5.1 Método Newtoniano
+Para que se determine a equação de solução do Método dos Elementos Finitos é necessária a introdução e utilização do conceito de forças nodais equivalentes, processo utilizado para definição do equilíbrio nodal dos elementos da malha utilizada através da combinação das forças nodais relacionadas aos deslocamentos do nó (termos da matriz de rigidez do elemento) e da força resultante correspondente às forças aplicadas.
+A Figura 1 representa um elemento engastado com uma mola de comportamento linear elástico e constante “k”, com uma força “F1” aplicada resultando em um deslocamento “x1”.
+
+FIGURA 1
+
+O problema apresentado na Figura 2 corresponde a um sistema de equilíbrio relativamente simples e de fácil resolução. Para que se estabeleça uma relação capaz de demonstrar o comportamento do sistema a partir da presença de um maior número de elementos de mola cujos deslocamentos aconteçam em direções variadas, é necessário uma padronização de um método de solução levando em consideração o comportamento de um único elemento de mola porém com condições iniciais diferentes das apresentadas na Figura 2.
+Nesse interim, é necessário estabelecer um novo sistema onde o deslocamento do nó presente no engaste não seja mais nulo. A Figura 2 representa esse novo sistema adotado: 
+
+FIGURA 2
+
+A Figura 2 traz um elemento de mola com rigidez “K”, com dois nós, “i” e “j” com suas respectivas forças e deslocamentos na direção x. De posse destes dados é possível com que se determine as equações de equilíbrio para ambos os nós para a condição de equilíbrio estático. A primeira maneira utilizada para a resolução do sistema é através do equilíbrio de forças nodais, ou método newtoniano. 
+Para o desenvolvimento do método foi considerado, conforme apresentado na Figura 3, que o nó “j” possui um deslocamento maior que do nó “i”, dada a condição adotada de equilíbrio da mola.
+Através do Diagrama de Corpo Livre (DCL) de ambos os nós, considerando as forças de resposta da mola, é possível determinar as Equações 1 e 2 partindo do somatório de forças atuantes no eixo x:
+
+Fi+Fm=0	(1)
+Fj-Fm=0	(2)
+
+Onde:
+Fj = força aplicada no nó “j”;
+Fi = força aplicada no nó “i”;
+Fm = força da mola.
+
+Como a mola presente no sistema possui um comportamento elástico linear, é possível descrever a relação entre suas grandezas através da Lei de Hooke, como apresentada na Equação 3.  Ainda, partindo também da hipótese adotada de que o deslocamento no nó “j” é maior que o deslocamento em “i”, tem-se a Equação 4:
+
+Fm=Kx	(3)
+x=xj-xi	(4)
+
+Assim, temos que:
+
+Fm=K*(xj-xi)	(5)
+
+Substituindo a Equação 5 nas Equações 1 e 2, chegamos ao seguinte sistema:
+{Fi+K*(xj-xi)=0
+{Fj-K*(xj-xi)=0
+
+Desenvolvendo o sistema de equações acima isolando as forças aplicadas nos nós é possível determinar, de forma matricial, as incógnitas buscadas (xj e xi), os termos independentes (Fj e Fi) e as constantes “K’s”, como apresentado abaixo:
+
+[k -k; -k k]*{xi; xj} = {Fi; Fj} (6)
+	
+A Equação 6 pode ser resumida da seguinte forma:
+
+[K]*{x}={F}	(7)
+	
+A Equação 7 apresenta a matriz de rigidez, o vetor de deslocamentos e o vetor de forças, respectivamente. A partir do momento em que as condições de contorno do problema forem definidas, é possível, através desta equação, isolar as variáveis e resolver o sistema através dos métodos matemáticos adequados. 
+
+1.5.2 Método Lagrangeano
+O método Lagrangeano difere-se do Newtoneano pelo fato de utilizar em sua formulação princípios de conservação de energia ao invés do equilíbrio de forças. Para que a formulação deste método seja desenvolvida é necessário primeiramente que se defina os graus de liberdade (ou incógnitas de movimento) do sistema utilizado. Para essa definição, utilizaremos o mesmo sistema descrito na figura 1.
+Primeiramente é necessário definir o potencial de energia do sistema, de acordo com o método de Lagrange, como:
+
+π=U-W	(8)
+
+Onde:
+П = potencial de energia;
+U = energia potencial elástica do sistema;
+W = trabalho realizado pelas forças externas.
+
+Para o cálculo da energia potencial elástica de um sistema é utilizada uma equação que relaciona a constante elástica (K) de sua mola e sua deformação sofrida (x), conforme mostrado pela Equação 9:
+U=1/2 Kx^2	(9)
+
+Para o nó “i”, tomando como base as Equações 8 e 9, temos:
+
+π_i=1/2 K*(xj-xi)-Fi*xi	(10)
+π_j=1/2 K*(xj-xi)-Fj*xj	(11)
+
+Para que se determine os mínimos valores necessários para que o sistema esteja em equilíbrio, é necessário respeitar a seguinte condição:
+{█((∂π_i)/xi=0@(∂π_j)/xj=0)┤
+Partindo desta condição, temos que:
+(∂π_i)/xi=[2*(1/2 K*(xj-xi))*(-1)]-Fi
+	(12)
+(∂π_j)/xj=[2*(1/2 K*(xj-xi))*1]-Fj
+	(13)
+
+Desenvolvendo as equações acima, chegamos ao seguinte sistema:
+{█(Kxi-Kxj=Fi@-Kxi+Kxj=Fj)┤
+Sendo o sistema acima equivalente à Equação 7.
+
