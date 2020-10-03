@@ -117,18 +117,21 @@ U=1/2 Kx^2	(9)
 
 Para o nó “i”, tomando como base as Equações 8 e 9, temos:
 
-π_i=1/2 K*(xj-xi)-Fi*xi	(10)
-π_j=1/2 K*(xj-xi)-Fj*xj	(11)
+πi=1/2 K*(xj-xi)-Fi*xi	(10)
+πj=1/2 K*(xj-xi)-Fj*xj	(11)
 
 Para que se determine os mínimos valores necessários para que o sistema esteja em equilíbrio, é necessário respeitar a seguinte condição:
-{█((∂π_i)/xi=0@(∂π_j)/xj=0)┤
+
+{∂πi/xi=0
+{∂πj/xj=0
+
 Partindo desta condição, temos que:
-(∂π_i)/xi=[2*(1/2 K*(xj-xi))*(-1)]-Fi
-	(12)
-(∂π_j)/xj=[2*(1/2 K*(xj-xi))*1]-Fj
-	(13)
+
+∂πi/xi = [2*(1/2 K*(xj-xi))*(-1)]-Fi	(12)
+∂πj/xj = [2*(1/2 K*(xj-xi))*1]-Fj	(13)
 
 Desenvolvendo as equações acima, chegamos ao seguinte sistema:
-{█(Kxi-Kxj=Fi@-Kxi+Kxj=Fj)┤
+{Kxi-Kxj=Fi
+{-Kxi+Kxj=Fj
 Sendo o sistema acima equivalente à Equação 7.
 
