@@ -108,4 +108,4 @@ As atividades habituais dos profissionais dos diversos ramos da engenharia geral
 
 
 
-O exemplo de solução de uma aplicação simplificada de MEF pode ser consultado em: [link](https://nbviewer.jupyter.org/github/wmpjrufg/INTRODUCAO_MEF/blob/gh-pages/notebook1.ipynb)
+O exemplo de solução de uma aplicação simplificada de MEF pode ser consultado em: [link](https://nbviewer.jupyter.org/github/wmpjrufg/INTRODUCAO_MEF/blob/gh-pages/notebook2.ipynb)
